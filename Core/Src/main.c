@@ -202,7 +202,7 @@ void On_Data_Recieve_interrupt(UART_HandleTypeDef *huart1) {
 	//uint8_t letter;
 	HAL_UART_Transmit(huart1, (uint8_t*) &str, 1, 100);
 uint8_t response;
-			HAL_UART_Receive_IT(huart1,(uint8_t*) &str, 1);
+			HAL_UART_Receive(huart1, (uint8_t*) &str, strlen(str), 100);
 	if(0x61<=str&&str<=0x7A){
 		response=str-20;}
 	else{response=str++;};
