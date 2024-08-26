@@ -1,6 +1,7 @@
-main.c:66:5:main	1
-main.c:114:6:SystemClock_Config	3
-main.c:154:13:MX_USART1_UART_Init	2
-main.c:187:13:MX_GPIO_Init	1
-main.c:201:6:On_Data_Recieve_interrupt	3
-main.c:220:6:Error_Handler	1
+main.c:72:5:main	1
+main.c:127:6:SystemClock_Config	3
+main.c:164:13:MX_USART1_UART_Init	2
+main.c:195:13:MX_GPIO_Init	1
+main.c:208:6:On_Data_Recieve_interrupt	5
+main.c:235:6:On_TX_Complete_interrupt	1
+main.c:244:6:Error_Handler	1

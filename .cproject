@@ -177,4 +177,5 @@
 			<resource resourceType="PROJECT" workspacePath="/seimns task uart using interrupt by putty"/>
 		</configuration>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>
